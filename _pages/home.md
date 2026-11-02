@@ -5,7 +5,7 @@ excerpt: "Siyi Teng | Ph.D. Candidate at CUHK"
 author_profile: true
 ---
 
-I am currently a Ph.D. Candidate in the [Department of Systems Engineering and Engineering Management](https://www.se.cuhk.edu.hk/) at [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/), working with [Prof. Jeffrey Xu Yu](https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/). Before joining CUHK, I received my bachelor's degree from [East China Normal University (ECNU)](https://english.ecnu.edu.cn/).
+I am currently a Ph.D. Candidate in the [Department of Systems Engineering and Engineering Management](https://www.se.cuhk.edu.hk/) at [The Chinese University of Hong Kong (CUHK)](https://www.cuhk.edu.hk/), supervised by [Prof. Jeffrey Xu Yu](https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/) and [Prof. Hong Cheng](https://www.se.cuhk.edu.hk/people/academic-staff/prof-cheng-hong/). Before joining CUHK, I received my bachelor's degree from [East China Normal University (ECNU)](https://english.ecnu.edu.cn/) in 2024.
 
 My research interests lie in **data management and large-scale graph processing**, including **graph algorithms and systems**, **parallel graph analytics**, and **vector database query processing**.
 
