@@ -2,8 +2,12 @@
 {% assign author = site.author %}
 <div itemscope itemtype="https://schema.org/Person">
   <div class="author__avatar">
-    <div class="siyi-avatar" aria-label="Siyi Teng avatar placeholder" role="img">ST</div>
-  </div>
+  <img
+    src="{{ '/images/photo.jpg' | relative_url }}"
+    alt="Siyi Teng"
+    class="siyi-avatar"
+  >
+</div>
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     <p class="author__bio">{{ author.bio }}</p>
