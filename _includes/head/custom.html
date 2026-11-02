@@ -1,0 +1,47 @@
+{% include base_path %}
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css">
+<meta name="theme-color" content="#ffffff">
+<style>
+  /* Retain Jiadong's clean blue, no-underline link style. */
+  .page__content a:not(.btn), .page__content a:not(.btn):visited {
+    color: #1765ad; text-decoration: none;
+  }
+  .page__content a:not(.btn):hover, .page__content a:not(.btn):active {
+    color: #114c86; text-decoration: none;
+  }
+  .page__content a:focus-visible, .author__urls a:focus-visible {
+    outline: 2px solid #1765ad; outline-offset: 3px;
+  }
+  .siyi-avatar {
+    width: 175px; height: 175px; max-width: 100%; display: flex;
+    align-items: center; justify-content: center;
+    border: 1px solid #d1deec; border-radius: 50%;
+    background: #e8f0fa; color: #315a86;
+    font-size: 3.05rem; font-weight: 650; letter-spacing: .035em;
+  }
+  @media (max-width: 1023px) {
+    .siyi-avatar { width: 60px; height: 60px; font-size: 1.15rem; }
+  }
+  .pub-list { margin-top: 0.25rem; }
+  .pub-year { font-size: 1.04em; margin: 1.4rem 0 .65rem; color: #333; }
+  .pub-item { margin: 0 0 1rem; }
+  .pub-title { line-height: 1.4; }
+  .pub-authors { margin: .11rem 0 0; line-height: 1.5; color: #777; }
+  .pub-authors .me { color: #202020; font-weight: 700; }
+  .pub-venue { margin: .1rem 0 0; line-height: 1.45; color: #555; }
+  .pub-mark { font-size: .62em; vertical-align: super; line-height: 0; }
+  .pub-links { display: inline-flex; flex-wrap: wrap; gap: .35rem; margin-left: .25rem; vertical-align: middle; }
+  .page__content .pub-link {
+    display: inline-flex; align-items: center; gap: .28em;
+    padding: .08em .5em; background: #f3f7ff; border: 1px solid #b8c7e6;
+    border-radius: 999px; font-size: .74em; font-weight: 600;
+    white-space: nowrap; line-height: 1.55;
+  }
+  .page__content .pub-link:hover { background: #e8f0ff; }
+  .pub-note { font-size: .84em; color: #757575; margin: .35rem 0 1rem; }
+  @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+  #publications, #experience, #academic-services, #teaching, #selected-awards { scroll-margin-top: 5rem; }
+  .section-placeholder { color: #999; font-style: italic; }
+  #teaching + h3 { margin-top: 1rem; }
+</style>

@@ -1,0 +1,13 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "Publications"
+    url: "/#publications"
+  - title: "Experience"
+    url: "/#experience"
+  - title: "Academic Services"
+    url: "/#academic-services"
+  - title: "Teaching"
+    url: "/#teaching"
+  - title: "Selected Awards"
+    url: "/#selected-awards"

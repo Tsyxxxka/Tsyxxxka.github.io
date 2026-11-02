@@ -1,0 +1,65 @@
+# One-page academic homepage for Siyi Teng, adapted from Jiadong Xie's site.
+locale: "en-US"
+title: "Siyi Teng"
+title_separator: "-"
+name: "Siyi Teng"
+description: "Siyi Teng | Ph.D. Candidate at The Chinese University of Hong Kong"
+url: ""  # Optional: set the final deployed URL, e.g. https://USERNAME.github.io
+baseurl: "" # Keep empty for a personal username.github.io site or a custom domain.
+breadcrumbs: false
+read_more: "disabled"
+
+# Only Siyi's publicly verified information is included.
+author:
+  name: "Siyi Teng"
+  bio: "Ph.D. Candidate at the Department of Systems Engineering and Engineering Management, The Chinese University of Hong Kong"
+  location: "Hong Kong SAR"
+  email: "syteng@se.cuhk.edu.hk"
+  dblp: "https://dblp.org/pid/358/8722.html"
+  orcid: "https://orcid.org/0009-0004-1210-4672"
+  github: "Tsyxxxka"
+
+analytics:
+  provider: false
+comments:
+  provider: false
+
+include:
+  - _pages
+  - files
+exclude:
+  - README.md
+  - Gemfile
+  - LICENSE
+  - .gitignore
+  - vendor
+  - node_modules
+  - scripts
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  toc_levels: 1..6
+sass:
+  sass_dir: _sass
+  style: compressed
+permalink: /:categories/:title/
+timezone: Asia/Hong_Kong
+
+plugins: []
+
+compress_html:
+  clippings: all
+
+# This site has a single visible page (/).
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
