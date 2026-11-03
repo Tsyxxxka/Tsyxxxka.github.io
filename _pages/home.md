@@ -82,7 +82,7 @@ My research interests lie in **data management and large-scale graph processing*
 
 <h2 id="selected-awards">Selected Awards</h2>
 
-- **Fully-funded PhD Student Scholarship**, The Chinese University of Hong Kong, 2024@2027.
+- **Fully-funded PhD Student Scholarship**, The Chinese University of Hong Kong, 2024-present.
 - **Outstanding Undergraduate Thesis**, East China Normal University, 2023.
 - **Outstanding Graduate**, East China Normal University, 2023.
 - **Special-Class Scholarship**, East China Normal University, 2022.
