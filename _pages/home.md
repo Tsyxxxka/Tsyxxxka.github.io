@@ -67,7 +67,7 @@ My research interests lie in **data management and large-scale graph processing*
 
 <h2 id="academic-services">Academic Services</h2>
 
-- **Program Committee Member:** The Web Conference (2026).
+- **Program Committee Member:** The Web Conference (2026, 2027).
 - **External Reviewer:** VLDB, TheWebConf, ICDE, TKDE, KDD, WSDM, NeurIPS, ICDM, CIKM, IEEE Big Data.
 
 <h2 id="teaching">Teaching</h2>
